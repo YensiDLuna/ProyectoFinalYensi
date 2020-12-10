@@ -1,0 +1,57 @@
+﻿<Window x:Class="PROJECTO_FINAL_YENSI.UI.Pantalla_Principal"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PROJECTO_FINAL_YENSI.UI"
+        mc:Ignorable="d"
+        Title="Pantalla_Principal" Height="450" Width="800">
+    <Grid>
+        <StackPanel>
+
+            <Menu Height="18">
+
+                <MenuItem Header="Registros">
+
+                    <MenuItem x:Name="MenuItem" Header="Registro Reservacion " Click="ReservacionMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem2" Header="Registro Usuario " Click="UsuarioMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem3" Header="Registro Cliente " Click="ClienteMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem4" Header="Registro Habitacion " Click="HabitacionMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem5" Header="Registro Hotel " Click="HotelMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem6" Header="Registro TipoHabitacion " Click="TipoHabitacionMenuItem_Click"/>
+                    <MenuItem x:Name="MenuItem7" Header="Registro TipoUsuario " Click="TipoUsuarioMenuItem_Click"/>
+
+
+                </MenuItem>
+
+
+
+                <MenuItem Header="Consultas">
+
+                    <MenuItem x:Name="ConsultaMenuItem1" Header="Consulta Reservacion " Click="cReservacionMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem2" Header="Consulta Usuario " Click="cUsuarioMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem3" Header="Consulta Cliente " Click="cClienteMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem4" Header="Consulta Habitacion " Click="cHabitacionMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem5" Header="Consulta Hotel " Click="cHotelMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem6" Header="Consulta TipoHabitacion" Click="cTipoHabitacionMenuItem_Click" />
+                    <MenuItem x:Name="ConsultaMenuItem7" Header="Consulta TipoUsuario " Click="cTipoUsuarioMenuItem_Click" />
+                    
+
+
+
+                </MenuItem>
+
+
+
+                <MenuItem Header="Ayuda">
+
+                    <Menu/>
+
+                </MenuItem>
+
+            </Menu>
+
+        </StackPanel>
+
+    </Grid>
+</Window>
